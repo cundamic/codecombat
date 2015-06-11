@@ -776,17 +776,17 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     social_hipchat: "Chatujte s nami vo verejnej HipChat miestnosti"
     contribute_to_the_project: "Prispej svojou prácou"
 
-#  clans:
-#    clan: "Clan"
-#    clans: "Clans"
-#    new_name: "New clan name"
-#    new_description: "New clan description"
-#    make_private: "Make clan private"
-#    subs_only: "subscribers only"
-#    create_clan: "Create New Clan"
-#    public_clans: "Public Clans"
-#    my_clans: "My Clans"
-#    clan_name: "Clan Name"
+  clans:
+    clan: "Klan"
+    clans: "Klany"
+    new_name: "Nové meno klanu"
+    new_description: "Nový popis klanu"
+    make_private: "Zmeň klan na súkromný"
+    subs_only: "iba pre predplatiteľov"
+    create_clan: "Vytvor nový klan"
+    public_clans: "Verejné klany"
+    my_clans: "Moje klany"
+    clan_name: "Meno klanu"
 #    name: "Name"
 #    chieftain: "Chieftain"
 #    type: "Type"
@@ -1067,7 +1067,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     no_achievements: "Zatiaľ nemáš žiadne Úspechy."
     favorite_prefix: "Tvoj obľúbený jazyk je "
     favorite_postfix: "."
-#    not_member_of_clans: "Not a member of any clans yet."
+    not_member_of_clans: "Nie si zatiaľ členom žiadneho klanu."
 
   achievements:
     last_earned: "Naposledy získané"
