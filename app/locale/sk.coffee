@@ -121,14 +121,14 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     creating: "Vytvára sa účet..."
     sign_up: "Registruj sa"
     log_in: "prihlás sa pomocou hesla"
-#    social_signup: "Or, you can sign up through Facebook or G+:"
-#    required: "You need to log in before you can go that way."
-#    login_switch: "Already have an account?"
+    social_signup: "Môžeš sa zaregistrovať aj cez Facebook alebo G+:"
+    required: "Najskôr sa musíš prihlásiť."
+    login_switch: "Máš už účet?"
 
   recover:
     recover_account_title: "Obnov účet"
     send_password: "Zašli záchranné heslo"
-#    recovery_sent: "Recovery email sent."
+    recovery_sent: "Odoslaný email na obnovenie hesla."
 
   items:
     primary: "Primárny"
@@ -139,8 +139,8 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     books: "Knihy"
 
   common:
-    back: "Späť" # When used as an action verb, like "Navigate backward"
-    continue: "Pokračovať" # When used as an action verb, like "Continue forward"
+    back: "Späť" 
+    continue: "Pokračovať" 
     loading: "Načítava sa..."
     saving: "Ukladá sa..."
     sending: "Odosiela sa..."
@@ -151,7 +151,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     create: "Vytvoriť"
     manual: "Manuál"
     fork: "Klonovať"
-    play: "Hraj" # When used as an action verb, like "Play next level"
+    play: "Hraj" 
     retry: "Znova"
     actions: "Príkazy"
     info: "Info"
@@ -204,7 +204,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     medium: "Stredná"
     hard: "Ťažká"
     player: "Hráč"
-    player_level: "Úroveň" # Like player level 5, not like level: Dungeons of Kithgard
+    player_level: "Úroveň" 
     warrior: "Bojovník"
     ranger: "Strelec"
     wizard: "Mág"
@@ -227,8 +227,8 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
 
   play_level:
     done: "Hotovo"
-    home: "Domov" # Not used any more, will be removed soon.
-    level: "Úroveň" # Like "Level: Dungeons of Kithgard"
+    home: "Domov" 
+    level: "Úroveň" 
     skip: "Preskočiť"
     game_menu: "Menu hry"
     guide: "Návod"
@@ -257,23 +257,23 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     victory_return_to_ladder: "Vrátiť sa na Rebríčky"
     victory_play_continue: "Pokračovať"
     victory_saving_progress: "Stav ukladania"
-    victory_go_home: "Návrat Domov" # Only in old-style levels.
-    victory_review: "Povedz nám viac!" # Only in old-style levels.
+    victory_go_home: "Návrat Domov" 
+    victory_review: "Povedz nám viac!" 
     victory_hour_of_code_done: "Skončil si?"
     victory_hour_of_code_done_yes: "Áno, pre dnešok som skončil™!"
     victory_experience_gained: "Získaných skúseností"
     victory_gems_gained: "Získaných kryštálov"
     guide_title: "Návod"
-    tome_minion_spells: "Vaše obľúbené kúzla" # Only in old-style levels.
-    tome_read_only_spells: "Kúzla iba na čítanie" # Only in old-style levels.
-    tome_other_units: "Ostatné jednotky" # Only in old-style levels.
+    tome_minion_spells: "Vaše obľúbené kúzla" 
+    tome_read_only_spells: "Kúzla iba na čítanie" 
+    tome_other_units: "Ostatné jednotky" 
     tome_cast_button_run: "Spustiť"
     tome_cast_button_running: "Prebieha"
     tome_cast_button_ran: "Spustené"
     tome_submit_button: "Odoslať"
-    tome_reload_method: "Znovu načítať pôvodný kód pre túto metódu" # Title text for individual method reload button.
+    tome_reload_method: "Znovu načítať pôvodný kód pre túto metódu" 
     tome_select_method: "Vybrať metódu"
-    tome_see_all_methods: "Vybrať všetky metódy, ktoré môžu byť upravené" # Title text for method list selector (shown when there are multiple programmable methdos).
+    tome_see_all_methods: "Vybrať všetky metódy, ktoré môžu byť upravené" 
     tome_select_a_thang: "Zvoľte niekoho pre "
     tome_available_spells: "Dostupné kúzla"
     tome_your_skills: "Tvoje schopnosti"
@@ -308,9 +308,9 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     tip_all_species: "Veríme v rovnaké možnosti učenia sa programovať pre všetky druhy."
     tip_reticulating: "Sieťovanie chrbtíc."
     tip_harry: "Hej kúzelík, "
-#    tip_great_responsibility: "With great coding skill comes great debug responsibility."
-#    tip_munchkin: "If you don't eat your vegetables, a munchkin will come after you while you're asleep."
-#    tip_binary: "There are only 10 types of people in the world: those who understand binary, and those who don't."
+    tip_great_responsibility: "Čím si lepší v kódovaní, tým musíš byť lepší v ladení."
+    tip_munchkin: "Ak nebudeš jesť zeleninu, tak ťa počas spánku navštívi prežúvavec."
+    tip_binary: "Na svete je iba 10 typov ľudí:tí, ktorí rozumejú dvojkovej sústave a tí, čo nie."
 #    tip_commitment_yoda: "A programmer must have the deepest commitment, the most serious mind. ~ Yoda"
 #    tip_no_try: "Do. Or do not. There is no try. - Yoda"
 #    tip_patience: "Patience you must have, young Padawan. - Yoda"
@@ -356,9 +356,9 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     multiplayer_caption: "Hraj s priateľmi!"
     auth_caption: "Ulož svoj progres."
 
-#  leaderboard:
-#    leaderboard: "Leaderboard"
-#    view_other_solutions: "View Other Solutions"
+  leaderboard:
+    leaderboard: "Rebríček"
+    view_other_solutions: "Pozri si iné riešenia"
 #    scores: "Scores"
 #    top_players: "Top Players by"
 #    day: "Today"
@@ -457,10 +457,10 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
 #    subscribe_prepaid: "Click Subscribe to use prepaid code"
 #    using_prepaid: "Using prepaid code for monthly subscription"
 
-#  choose_hero:
-#    choose_hero: "Choose Your Hero"
-#    programming_language: "Programming Language"
-#    programming_language_description: "Which programming language do you want to use?"
+  choose_hero:
+    choose_hero: "Vyber si hrdinu"
+    programming_language: "Programovací jazyk"
+    programming_language_description: "Aký programovací jazyk chceš poučívať?"
 #    default: "Default"
 #    experimental: "Experimental"
 #    python_blurb: "Simple yet powerful, great for beginners and experts."
@@ -476,8 +476,8 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
 #    weapons_ranger: "Crossbows, Guns - Long Range, No Magic"
 #    weapons_wizard: "Wands, Staffs - Long Range, Magic"
 #    attack: "Damage" # Can also translate as "Attack"
-#    health: "Health"
-#    speed: "Speed"
+    health: "Zdravie"
+    speed: "Rýchlosť"
 #    regeneration: "Regeneration"
 #    range: "Range" # As in "attack or visual range"
 #    blocks: "Blocks" # As in "this shield blocks this much damage"
@@ -496,7 +496,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
 #    restricted_to_certain_heroes: "Only certain heroes can play this level."
 
   skill_docs:
-    writable: "zapisovatelné" # Hover over "attack" in Your Skills while playing a level to see most of this
+    writable: "zapisovatelné" 
     read_only: "iba na čítanie"
     action_name: "názov"
     action_cooldown: "Zaberie"
@@ -506,7 +506,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     action_radius: "Dosah"
     action_duration: "Trvanie"
     example: "Príklad"
-    ex: "pr." # Abbreviation of "example"
+    ex: "pr." 
     current_value: "Aktuálna hodnota"
     default_value: "Východzia hodnota"
     parameters: "Parametre"
