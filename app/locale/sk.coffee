@@ -1,20 +1,20 @@
 module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak", translation:
   home:
     slogan: "Nauč sa programovať pomocou hry"
-    no_ie: "CodeCombat nefunguje v prehliadači Internet Explorer 8 a jeho starších verziách. Ospravedlňujeme sa." # Warning that only shows up in IE8 and older
-    no_mobile: "CodeCombat nebol navrhnutý pre mobilné zariadenia a nemusí na nich fungovať správne!" # Warning that shows up on mobile devices
-    play: "Hraj" # The big play button that opens up the campaign view.
-    old_browser: "Ajaj, prehliadač je príliš starý. CodeCombat na ňom nepôjde. Je nám to ľúto!" # Warning that shows up on really old Firefox/Chrome/Safari
+    no_ie: "CodeCombat nefunguje v prehliadači Internet Explorer 8 a jeho starších verziách. Ospravedlňujeme sa." 
+    no_mobile: "CodeCombat nebol navrhnutý pre mobilné zariadenia a nemusí na nich fungovať správne!" 
+    play: "Hraj" 
+    old_browser: "Ajaj, prehliadač je príliš starý. CodeCombat na ňom nepôjde. Je nám to ľúto!" 
     old_browser_suffix: "Skúsiť sa to dá, ale asi to nepôjde."
     ipad_browser: "Zlé správy: CodeCombat nebeží na iPade v prehliadači. Dobré správy: naša iPad aplikácia čaká na schválenie od Apple."
     campaign: "Kampaň"
     for_beginners: "Pre začiatočníkov"
-    multiplayer: "Viac hráčov" # Not currently shown on home page
-    for_developers: "Pre vývojárov" # Not currently shown on home page.
+    multiplayer: "Viac hráčov" 
+    for_developers: "Pre vývojárov"
     or_ipad: "Alebo stiahni pre iPad"
 
   nav:
-    play: "Hraj" # The top nav bar entry where players choose which levels to play
+    play: "Hraj" 
     community: "Komunita"
     editor: "Editor"
     blog: "Blog"
@@ -23,7 +23,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     profile: "Profil"
     stats: "Štatistiky"
     code: "Kód"
-    admin: "Spravuj" # Only shows up when you are an admin
+    admin: "Spravuj"
     home: "Domov"
     contribute: "Prispej"
     legal: "Pre právnikov"
@@ -40,7 +40,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     page_not_found: "Stránka nenájdená"
 
   diplomat_suggestion:
-    title: "Pomôžte preložiť CodeCombat!" # This shows up when a player switches to a non-English language using the language selector.
+    title: "Pomôžte preložiť CodeCombat!" 
     sub_heading: "Potrebujeme tvoje jazykové zručnosti."
     pitch_body: "We develop CodeCombat in English, but we already have players all over the world. Many of them want to play in Slovak but don't speak English, so if you can speak both, please consider signing up to be a Diplomat and help translate both the CodeCombat website and all the levels into Slovak."
     missing_translations: "Until we can translate everything into Slovak, you'll see English when Slovak isn't available."
@@ -48,25 +48,25 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     subscribe_as_diplomat: "Prihlásiť sa ako Diplomat"
 
   play:
-    play_as: "Hraj ako" # Ladder page
-    spectate: "Sledovať" # Ladder page
-    players: "hráči" # Hover over a level on /play
-    hours_played: "odohratých hodín" # Hover over a level on /play
-    items: "Predmety" # Tooltip on item shop button from /play
-    unlock: "Odomknúť" # For purchasing items and heroes
+    play_as: "Hraj ako" 
+    spectate: "Sledovať" 
+    players: "hráči" 
+    hours_played: "odohratých hodín" 
+    items: "Predmety" 
+    unlock: "Odomknúť" 
     confirm: "Potvrdiť"
-    owned: "Vlastníš" # For items you own
+    owned: "Vlastníš" 
     locked: "Zamknuté"
-    purchasable: "Môžeš zakúpiť" # For a hero you unlocked but haven't purchased
+    purchasable: "Môžeš zakúpiť" 
     available: "Dostupné"
-    skills_granted: "Získané skúsenosti" # Property documentation details
-    heroes: "Hrdinovia" # Tooltip on hero shop button from /play
-    achievements: "Úspechy" # Tooltip on achievement list button from /play
-    account: "Účet" # Tooltip on account button from /play
-    settings: "Nastavenia" # Tooltip on settings button from /play
-#    poll: "Poll" # Tooltip on poll button from /play
-    next: "Ďalší" # Go from choose hero to choose inventory before playing a level
-    change_hero: "Zmeniť hrdinu" # Go back from choose inventory to choose hero
+    skills_granted: "Získané skúsenosti" 
+    heroes: "Hrdinovia" 
+    achievements: "Úspechy" 
+    account: "Účet" 
+    settings: "Nastavenia" 
+    poll: "Výzva" 
+    next: "Ďalší" 
+    change_hero: "Zmeniť hrdinu" 
     choose_inventory: "Vyzbrojiť sa s predmetmy"
     buy_gems: "Zakúpiť drahokamy"
     subscription_required: "Vyžaduje sa rredplatné"
@@ -78,7 +78,7 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     awaiting_levels_adventurer: "Prihlás sa ako Dobrodruh"
     awaiting_levels_adventurer_suffix: "budeš ako prvý hrať nové levely."
     adjust_volume: "Zmeniť hlasitosť"
-    choose_your_level: "Vyber si úroveň" # The rest of this section is the old play view at /play-old and isn't very important.
+    choose_your_level: "Vyber si úroveň" 
     adventurer_prefix: "Môže si vybrať ktorúkoľvek z úrovní alebo ich prediskutovať na "
     adventurer_forum: "fóre pre dobrodruhov"
     adventurer_suffix: "."
@@ -93,15 +93,15 @@ module.exports = nativeDescription: "slovenčina", englishDescription: "Slovak",
     campaign_classic_algorithms: "Klasické Algoritmy"
     campaign_classic_algorithms_description: "... v kterých sa naučíte najobľúbenejšie algoritmy v IT"
 
-#  share_progress_modal:
-#    blurb: "You’re making great progress! Tell someone how much you've learned with CodeCombat."
-#    email_invalid: "Email address invalid."
-#    form_blurb: "Enter their email below and we’ll show them!"
-#    form_label: "Email Address"
-#    placeholder: "email address"
-#    title: "Excellent Work, Apprentice"
-#    tell_friend: "Tell your Friend"
-#    tell_parent: "Tell your Parent"
+  share_progress_modal:
+    blurb: "Robíš veľké pokroky! Povedz niekomu o tom, čo si sa naučil cez CodeCombat."
+    email_invalid: "Neplatná emailová adresa."
+    form_blurb: "Zadaj email priateľa a mi mu to oznámime!"
+    form_label: "Emailová adresa"
+    placeholder: "emailová adresa"
+    title: "Skvelá práca, učeň"
+    tell_friend: "Povedz svojmu priateľovi"
+    tell_parent: "Povedz svojím rodičom"
 
   login:
     sign_up: "Vytvor účet"
